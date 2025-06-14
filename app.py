@@ -12,7 +12,7 @@ CORS(app)
 try:
     # PERHATIAN: Masukkan API Key Anda langsung di sini.
     # Ganti teks di dalam tanda kutip dengan kunci API Anda.
-    api_key = "AIzaSyAK_IBIy21XBMdtBuNJzbVMooOciSCictw" # API Key Anda sudah di sini
+    api_key = "" # API Key Anda sudah di sini
     
     if not api_key or api_key == "MASUKKAN_API_KEY_ANDA_DI_SINI":
         raise ValueError("API Key belum dimasukkan. Silakan ganti placeholder dengan API Key Anda yang valid.")
